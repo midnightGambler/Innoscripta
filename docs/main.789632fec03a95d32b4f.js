@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{tjUo:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),o=t.n(a),r=t("i8i4"),c=function(){return o.a.createElement("h1",null,"Innoscripta")};t.n(r).a.render(o.a.createElement(c,null),document.getElementById("app"))}},[["tjUo",1,2]]]);
