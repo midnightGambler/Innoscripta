@@ -1,0 +1,15 @@
+.currency-switch {
+  &__toggler {
+    line-height: 1;
+  }
+  &__menu {
+    min-width: auto;
+    left: 0;
+    right: 0;
+    &-item {
+      padding: 0.25rem 0;
+      text-align: center;
+      line-height: 1;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.cart-list {
+  margin-bottom: 1rem;
+  position: relative;
+  &__close-btn {
+    position: absolute;
+    right: 1rem;
+  }
+  &__item {
+    &-actions {
+      &-count {
+        padding: 0 1rem;
+      }
+    }
+  }
+}

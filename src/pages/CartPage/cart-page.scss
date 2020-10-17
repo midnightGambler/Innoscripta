@@ -1,0 +1,10 @@
+.cart-page {
+  &__summary {
+    &-total {
+      margin: 0;
+    }
+    &-delivery {
+      color: #aaa;
+    }
+  }
+}
