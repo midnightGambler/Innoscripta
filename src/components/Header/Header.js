@@ -19,24 +19,24 @@ export const Header = () => {
   return (
     <Navbar className="mb-3" color="primary" dark expand="md">
       <Container>
-        <NavbarBrand tag={Link} to="/">
-          Innoscripta
-        </NavbarBrand>
         <div className="header__nav-wrapper">
+          <NavbarBrand tag={Link} to="/">
+            Innoscripta
+          </NavbarBrand>
           <CurrencySwitch />
-          <NavbarToggler onClick={setIsHeaderOpen.bind(null, !isHeaderOpen)} />
-          <Collapse isOpen={isHeaderOpen} navbar>
-            <Nav navbar>
-              {navigation.map((navInfo) => (
-                <NavItem key={navInfo.path}>
-                  <NavLink exact tag={Link} to={navInfo.path}>
-                    {navInfo.title}
-                  </NavLink>
-                </NavItem>
-              ))}
-            </Nav>
-          </Collapse>
         </div>
+        <NavbarToggler onClick={setIsHeaderOpen.bind(null, !isHeaderOpen)} />
+        <Collapse isOpen={isHeaderOpen} navbar>
+          <Nav navbar>
+            {navigation.map((navInfo) => (
+              <NavItem key={navInfo.path}>
+                <NavLink exact tag={Link} to={navInfo.path}>
+                  {navInfo.title}
+                </NavLink>
+              </NavItem>
+            ))}
+          </Nav>
+        </Collapse>
       </Container>
     </Navbar>
   );

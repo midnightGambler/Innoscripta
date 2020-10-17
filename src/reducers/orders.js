@@ -9,7 +9,7 @@ export const ordersReducer = (state = defaultState, action) => {
   switch (action.type) {
     case PLACE_ORDER:
       const { payload } = action;
-      return { list: [...state.list, { ...payload, createdAt: Date.now() }] };
+      return { list: [{ ...payload, createdAt: Date.now() }, ...state.list] };
 
     default:
       return state;
