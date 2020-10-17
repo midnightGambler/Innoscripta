@@ -1,6 +1,8 @@
 Simple test app for your pizza delivery service. Only frontend.
 Made by Ashur Aghabalazada
 
+Link to deploy: https://midnightgambler.github.io/Innoscripta/
+
 To run project:
 
 - Copy files from repo & run "npm install"
