@@ -27,7 +27,7 @@ export const Header = () => {
         </div>
         <NavbarToggler onClick={setIsHeaderOpen.bind(null, !isHeaderOpen)} />
         <Collapse isOpen={isHeaderOpen} navbar>
-          <Nav navbar>
+          <Nav navbar className="header__nav">
             {navigation.map((navInfo) => (
               <NavItem key={navInfo.path}>
                 <NavLink exact tag={Link} to={navInfo.path}>
